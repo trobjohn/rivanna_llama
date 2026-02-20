@@ -23,7 +23,7 @@ For the first session on Rivanna, I recommend:
 
 Once the initial build and model download are done, you can run llama.cpp in chat mode again by skipping to `bash ./bin/run_chat.sh`. This initiates a CLI chat session with Mistral (or whatever model).
 
-That will quickly become limiting for integration with other code and research purposes. The more flexible -- but costly -- option is llama.cpp in server mode.
+That will quickly become limiting for integration with other code and research purposes. The more flexible—but more complex—option is to run llama.cpp in server mode, exposing the model as a local HTTP endpoint that Python (or R) can query just like any other API.
 
 At the command line, run `bash .bin/run_server.sh`. This spins up a localhost running llama.cpp on port 8000.
 
