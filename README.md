@@ -9,12 +9,12 @@ Build a local LLM instance on Rivanna HPC
 
 For the first session on Rivanna, I recommend:
     
-    - Use VS Code Server
-    - Instructional Partition
-    - 1-2 hours
-    - 2-3 cores
-    - 64GB RAM (building llama.cpp can be expensive; after it's built, you can scale this back to 32GB RAM)
-    - SCRATCH should be more performant than HOME, but SCRATCH gets wiped every 90 days
-    - Indicate you want 1 GPU for the session
+- Use VS Code Server
+- Instructional Partition
+- 1-2 hours
+- 2-3 cores
+- 64GB RAM (building llama.cpp can be expensive; after it's built, you can scale this back to 32GB RAM)
+- SCRATCH should be more performant than HOME, but SCRATCH gets wiped every 90 days
+- Indicate you want 1 GPU for the session
 
 
