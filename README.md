@@ -25,4 +25,6 @@ Once the initial build and model download are done, you can run llama.cpp in cha
 
 That will quickly become limiting for integration with other code and research purposes. The more flexible -- but costly -- option is llama.cpp in server mode.
 
-1. At the command line, run `bash .bin/run_server.sh`. This spins up a localhost running llama.cpp on port 8000. To check that the server is running, you can type `curl http://localhost:8000/health`. To send a message and get a reply, run `./bin/check_server.sh`. Once that script runs, further programming can be done in Python using `requests`, `urllib`, or the OpenAI Python client (the OAI Python package doesn't necessarily involve ChatGPT; you can point it directly at this llama.cpp server and use the same API. This also accelerates development of applications that do use ChatGPT, but you don't want to waste tokens in development). 
+At the command line, run `bash .bin/run_server.sh`. This spins up a localhost running llama.cpp on port 8000. T
+
+To check that the server is running, you can type `curl http://localhost:8000/health`. To send a message and get a reply, run `./bin/check_server.sh`. Once that script runs, further programming can be done in Python using `requests`, `urllib`, or the OpenAI Python client (the OAI Python package doesn't necessarily involve ChatGPT; you can point it directly at this llama.cpp server and use the same API. This also accelerates development of applications that do use ChatGPT, but you don't want to waste tokens in development). 
