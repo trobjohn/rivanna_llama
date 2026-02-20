@@ -8,6 +8,7 @@ Build a local LLM instance on Rivanna HPC
 5. At the command line, run `bash .h/run_chat.sh`. This will launch a llama.cpp server, load Mistral, and begin a command-line chat session. The initial prompt is, "Explain, in plain language, what an LLM is and what it is not," to which it will respond. After that, you can chat directly with the LLM. For example, ask, "Can you write a simple template for doing PCA in Scikit-Learn?"
 
 For the first session on Rivanna, I recommend:
+    
     - Use VS Code Server
     - Instructional Partition
     - 1-2 hours
